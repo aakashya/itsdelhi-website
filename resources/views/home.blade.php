@@ -51,6 +51,14 @@
       font-weight: normal;
       font-style: normal;
     }
+
+    @font-face {
+      font-family: "OPTIEngraversOldEnglish";
+      src: url("{{ asset('font/EngraversOldEnglish.otf') }}") format("opentype");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
   </style>
 </head>
 
@@ -66,7 +74,7 @@
   </div>
 
   {{-- Floating posters layer (clipped to Reserve section via JS) --}}
-  <div id="floating-posters" class="fixed inset-0 z-50 opacity-0 transition-opacity duration-300 pointer-events-none will-change-[clip-path,opacity]">
+  <div id="floating-posters" class="hidden lg:block fixed inset-0 z-50 opacity-0 transition-opacity duration-300 pointer-events-none will-change-[clip-path,opacity]">
     @php
     $posters = [
     ['id'=>'poster1','style'=>'top:10%; left:5%;', 'src'=>asset('images/poster/poster1.jpeg')],
@@ -92,7 +100,8 @@
   {{-- ===== Masthead ===== --}}
   <header class="relative z-20 pt-5">
     <div class="mx-auto max-w-[1180px] px-5 flex items-center justify-center">
-      <h1 class="font-engravers text-[clamp(2.4rem,4.8vw,3.75rem)] leading-none tracking-[.05em] text-ink drop-shadow-[0_1px_0_rgba(0,0,0,.12)]">
+      <h1 style="font-family: OPTIEngraversOldEnglish, serif;"
+        class="font-family: OPTIEngraversOldEnglish, serif; text-[clamp(2.4rem,4.8vw,3.75rem)] leading-none tracking-[.05em] text-ink drop-shadow-[0_1px_0_rgba(0,0,0,.12)]">
         Itz Delhi Times
       </h1>
     </div>
