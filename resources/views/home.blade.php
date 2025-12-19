@@ -294,11 +294,11 @@
 
           {{-- Dots --}}
           <div class="dots flex items-center justify-center gap-2.5 py-3" role="tablist" aria-label="Choose slide">
-            <button class="dot is-active w-2.5 h-3.5 rounded-full border-[1.6px] border-black bg-black" role="tab" aria-controls="specials-track"
+            <button class="dot is-active w-3.5 h-3.5 rounded-full border-[1.6px] border-black bg-black" role="tab" aria-controls="specials-track"
               aria-selected="true" data-index="0"></button>
-            <button class="dot w-2.5 h-3.5 rounded-full border-[1.6px] border-black bg-white" role="tab" aria-controls="specials-track"
+            <button class="dot w-3.5 h-3.5 rounded-full border-[1.6px] border-black bg-white" role="tab" aria-controls="specials-track"
               aria-selected="false" data-index="1"></button>
-            <button class="dot w-2.5 h-3.5 rounded-full border-[1.6px] border-black bg-white" role="tab" aria-controls="specials-track"
+            <button class="dot w-3.5 h-3.5 rounded-full border-[1.6px] border-black bg-white" role="tab" aria-controls="specials-track"
               aria-selected="false" data-index="2"></button>
           </div>
         </div>
