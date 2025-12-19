@@ -316,7 +316,7 @@
         </p>
       </header>
 
-      <ol class="mt-4 border border-black bg-white shadow-ink p-3 grid grid-cols-4 gap-2 items-center" aria-label="Route: Punjab to Doncaster">
+      <ol class="mt-4 border border-black bg-white shadow-ink p-3 grid grid-cols-1 sm:grid-cols-4 gap-2 items-center" aria-label="Route: Punjab to Doncaster">
         @php
         $stops = ['Punjab', 'Old Delhi', 'Rajasthan', 'Doncaster'];
         @endphp
