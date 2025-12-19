@@ -712,7 +712,7 @@
   </section>
 
   {{-- ===== Reserve (this is the section posters clip to) ===== --}}
-  <section id="reserve" class="reserve-clip show-posters relative z-20 py-14 min-h-screen">
+  <section id="reserve" class="reserve-clip show-posters relative z-20 py-14">
     <div class="mx-auto max-w-[1180px] px-5 text-center">
       <h2 class="font-slab text-[clamp(1.5rem,3.2vw,2.25rem)]">Reserve • बुकिंग</h2>
       <p class="italic text-ink2 mt-1">“देर आए दुरुस्त आए”—walk-ins welcome, booking is बेहतर.</p>
